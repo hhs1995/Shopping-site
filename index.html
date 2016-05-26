@@ -1,0 +1,64 @@
+<!Doctype html>
+	<head>
+		<meta charset="utf-8">
+		<title>Shopping-site</title>
+		<link href="css/index.css"  type="text/css" rel="stylesheet"/>
+		<script src="jquery.min.js"></script>
+	</head>
+	<body>
+		<div id ="head">
+			<img src="images/logo.png">		
+		</div>
+		<div id="main">
+			<div id="login">
+				
+				<div id="login-content">	
+					<div id="login-title">E-SHOP用户登录</div>
+					<form action="php/login.php" method="post" onsubmit="return  fillCheck(this);">
+						<div class="input-box">
+							<input placeholder="账号:" type="text" name="username">
+						</div>
+						<div class="input-box">
+							<input placeholder="密码:"  type="password" name="password">
+						</div>
+						<div class="submit-box">
+							<input   type="submit" name="sub" value="登录">
+						</div>
+							
+
+					</form>			
+				</div>		
+			</div>
+		</div>
+		<div id="footer">
+			Design by   web 6 group
+		</div>
+	</body>
+	<script type="text/javascript">
+		function fillCheck(thisform)
+		{
+			var inputs =thisform.getElementsByTagName("input");
+			var inputname=[];
+			for(var i=0;i<inputs.length;i++)
+			{
+				switch(inputs[i].name)
+				{
+					
+					case "username":
+					inputname.push("账号");
+					case "password":
+					inputname.push("密码");
+					
+
+				}
+					
+				if(inputs[i].value==""||inputs[i].value==null)
+				{
+					alert(inputname[i]+"未填写");
+					inputs[i].focus();
+					return false;
+				}
+			}
+		}
+	</script>
+</html>
