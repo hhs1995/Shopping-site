@@ -49,7 +49,7 @@
 				</div>
 				<!--这里动态读取最常购买类型商品中热度最高-->
 				<ul class="goods-ul">
-					<li><a href=""><img src="../images/goods1.jpg" width="220" height="220"></a><div class="good-price">￥344.55</div><div class="good-introduce">【新百伦】New Balance/NB 574系列 女鞋 复古鞋跑步鞋运动休闲鞋WL574SPA</div></li>
+					<li><a href="#"><img src="../images/goods1.jpg" width="220" height="220"></a><div class="good-price">￥344.55</div><div class="good-introduce">【新百伦】New Balance/NB 574系列 女鞋 复古鞋跑步鞋运动休闲鞋WL574SPA</div></li>
 					<li><a href=""><img src="../images/goods2.jpg" width="220" height="220"></a><div class="good-price">￥344.55</div><div class="good-introduce">【新百伦】New Balance/NB 574系列 女鞋 复古鞋跑步鞋运动休闲鞋WL574SPA</div></li>
 					<li><a href=""><img src="../images/goods3.jpg" width="220" height="220"></a><div class="good-price">￥344.55</div><div class="good-introduce">【新百伦】New Balance/NB 574系列 女鞋 复古鞋跑步鞋运动休闲鞋WL574SPA</div></li>
 					<li><a href=""><img src="../images/goods4.jpg" width="220" height="220"></a><div class="good-price">￥344.55</div><div class="good-introduce">【新百伦】New Balance/NB 574系列 女鞋 复古鞋跑步鞋运动休闲鞋WL574SPA</div></li>

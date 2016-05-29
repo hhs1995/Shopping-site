@@ -35,7 +35,7 @@ img{border:0px;}
 #search-area input:focus{outline:none; }
 .btn-default{border: none;border-radius: 4px;}
 .btn-search{padding: 5px 10px;width: 60px;color:#fff;background-color:#ff5a00;border: 1px solid #fff;}
-#main-content{overflow: hidden; margin: auto; width:1000px;}
+#main-content{ min-height: 500px; overflow: hidden; margin: auto; width:1000px;}
 .status{width:1000px;height: 40px;margin-top: 50px; }
 .user-info{ margin-left: 220px;  padding:5px 15px; float: left;}
 .user-info span{color: #FF772D;}
@@ -76,3 +76,30 @@ a.nav-a:hover,a.nav-a:active{}
 .good-introduce{width: 232px; overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;}
+
+/*商品详情页面*/
+.detail-content{ margin-top: 50px; width: 1000px;min-height: 400px;}
+.clearfix:after{content: "";clear: both;}
+.img-area{text-align: center; float: left;width: 400px;height:400px; }
+.introduce-area{height:400px;overflow: hidden;}
+.dt-intro{height: 70px; padding: 15px;}
+.dt-price{height: 30px;padding: 10px 15px;background-color: #F2F2F2;}
+.dt-count{height: 50px;padding:0 15px;background-color: #F2F2F2;}
+.detail-content .sm{font-size: 0.8em;color:#787777;}
+.detail-content .danger{color:#C83209;}
+.dt-price .sm{font-size: 0.8em;color:#787777;}
+.dt-price .big{font-size: 1.3em;color:#FF4E00;margin-left: 20px; }
+.dt-count .sm{font-size: 0.8em;color:#787777;}
+.dt-count .mid{font-size: 1.0em;color:#C83209;margin-left: 20px; }
+.dt-confirm{padding:  0 15px;}
+.dt-confirm input[type="text"]{height: 36px; color: #4F4F4F;width: 65px;text-align: center; }
+
+.btn-amount{ border: #C0C0C0 1px solid; color: #979797;background-color: #fff;width: 36px; height: 36px; padding: 2px;}
+.amount-area{margin-top: 20px;height: 50px;}
+#amount-del{margin-left: 20px;}
+#atten{margin-left: 10px;}
+span.le{margin-left: 10px;}
+.amount-area{}
+.submit-area{margin-top: 10px;}
+.btn-buy{padding: 5px 15px;width: 200px;height: 40px;background-color:  #FF5A00;color: #fff;}
+.btn-cart{border:solid 1px #FF5A00;  padding: 5px 15px;width: 200px;height: 40px;background-color: #FFEBE0;color: #FF5A00;margin-left: 30px;}
