@@ -15,9 +15,11 @@ while($row = mysql_fetch_array($result))
 	{
 		if($row['id'] === $name && $row['password'] === $pwd)
 		{
-
-				jump_success("登录成功", '../html/index.php');
-
+               if($row['phone'] != ''&&$row['address'] != '' )
+				echo"<script>window.location.href='../html/index.php'</script>
+";
+			   else 
+			   echo"<script>alert('您的信息还不完善，请先完善个人信息');window.location.href='./html/index.php'</script>";
 		}
 
 	}

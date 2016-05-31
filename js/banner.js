@@ -93,14 +93,14 @@ $(function(){
 	var slidesetInterval=setInterval(rollEnvent,4000);
 	$(".banner").hover(function(){clearInterval(slidesetInterval);},function(){slidesetInterval=setInterval(rollEnvent,4000);});
 	$(".bar-left").mouseover(function(){
-		$(this).css("background","url(../image/arr-bg.png)");
+		$(this).css("background","url(../images/arr-bg.png)");
 		$(this).find("em").addClass("emcss");
 		}).mouseleave(function(){
 		$(this).css("background","none");
 		$(this).find("em").removeClass("emcss");
 			})
 	$(".bar-right").mouseover(function(){
-		$(this).css("background","url(../image/arr-bg.png)");
+		$(this).css("background","url(../images/arr-bg.png)");
 		$(this).find("em").addClass("emcss");
 		}).mouseleave(function(){
 		$(this).css("background","none");
